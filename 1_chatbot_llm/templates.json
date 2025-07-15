@@ -1,0 +1,5 @@
+{
+  "job_description": "Write a job description for a backend engineer skilled in {skills}.",
+  "interview_questions": "Give me 5 interview questions for a backend role involving {stack}.",
+  "onboarding_guide": "List onboarding steps for a new hire joining as {role}."
+}

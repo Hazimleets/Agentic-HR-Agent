@@ -1,0 +1,7 @@
+#offer_letter_template.txt
+Dear {name},
+
+We are pleased to offer you the position of {position} at {company}. We believe your skills in {skills} will be a great addition to our team.
+
+Best regards,
+{hr_name}
