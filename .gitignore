@@ -177,3 +177,4 @@ docs/_build/
 .abstra/
 
 agent/Lib/agent/Lib/
+1_chatbot_llm/.env
