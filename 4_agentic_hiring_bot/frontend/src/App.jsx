@@ -29,7 +29,7 @@ function App() {
     setError('');
     setResponse(null);
     try {
-      const res = await axios.post('http://127.0.0.1:5000/run_agent', payload, {
+      const res = await axios.post('/run_agent', payload, {
         headers: { 'Content-Type': 'application/json' },
       });
       setResponse(res.data.result);
