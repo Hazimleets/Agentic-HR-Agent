@@ -2,14 +2,28 @@
   "version": 2,
   "builds": [
     {
-      "src": "*.py",
-      "use": "@vercel/python"
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "build"
+      }
+    },
+    {
+      "src": "app.py",
+      "use": "@vercel/python",
+      "config": {
+        "runtime": "python3.9"
+      }
     }
   ],
   "routes": [
     {
-      "src": "/(.*)",
+      "src": "/run_agent",
       "dest": "app.py"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/"
     }
   ]
 }
