@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "rootDirectory": "4_agentic_hiring_bot",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "dist"  // Adjust if your build outputs to a different folder
+      }
+    }
+  ],
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}
