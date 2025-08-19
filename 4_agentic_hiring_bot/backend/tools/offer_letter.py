@@ -1,4 +1,4 @@
-# tools/offer_letter.py
+# backend/tools/offer_letter.py
 OFFER_TEMPLATE = """
 Dear {name},
 

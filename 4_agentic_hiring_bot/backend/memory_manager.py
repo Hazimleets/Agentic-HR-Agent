@@ -1,4 +1,4 @@
-# memory/memory_manager.py
+# # backend/memory_manager.py
 
 import faiss
 import pickle

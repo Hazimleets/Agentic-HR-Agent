@@ -1,4 +1,4 @@
-# tools/gmail_api.py
+# backend/tools/gmail_api.py
 
 import logging
 

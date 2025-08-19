@@ -1,4 +1,4 @@
-# db/scheme.py
+# backend/db/scheme.py
 
 from flask_sqlalchemy import SQLAlchemy
 

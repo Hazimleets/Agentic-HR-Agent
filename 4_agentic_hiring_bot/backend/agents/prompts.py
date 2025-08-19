@@ -1,4 +1,4 @@
-# agents/prompts.py
+# backend/agents/prompts.py
 
 job_request_prompt = """
 You are a {role}. Please review the following job request.

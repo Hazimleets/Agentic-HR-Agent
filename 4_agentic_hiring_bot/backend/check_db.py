@@ -1,3 +1,5 @@
+# backend/check_db.py
+
 from flask import Flask
 from db.schema import db, Job, Candidate
 from config import Config

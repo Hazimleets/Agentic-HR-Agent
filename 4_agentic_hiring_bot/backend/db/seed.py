@@ -1,4 +1,4 @@
-# db/seed.py
+# backend/db/seed.py
 
 import logging
 from db.schema import Candidate, Job, db

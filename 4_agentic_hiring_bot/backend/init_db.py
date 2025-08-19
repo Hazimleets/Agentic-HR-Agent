@@ -1,3 +1,5 @@
+# backend/init_db.py
+
 from flask import Flask
 from db.schema import db
 from db.seed import seed_data

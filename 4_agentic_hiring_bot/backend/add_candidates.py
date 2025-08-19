@@ -1,3 +1,5 @@
+# backend/add_candidates.py
+
 from flask import Flask
 from db.schema import db, Candidate, Job
 from config import Config
